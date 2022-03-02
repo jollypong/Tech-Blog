@@ -12,7 +12,7 @@ Comment.init(
             primaryKey: true,
             autoIncrement: true,
         }, 
-        user_id: {
+        user_id: { //if doesnt work, try user_id
             type: DataTypes.STRING, 
             allowNull: false, 
             references: {
